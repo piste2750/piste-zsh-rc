@@ -118,6 +118,7 @@ fi
 #
 source ~/github/zaw/zaw.zsh
 zstyle ':filter-select' case-insensitive yes
+zstyle ':filter-select' max-lines 10
 
 # You can configure the default action for each source
 #zstyle ':zaw:history' default zaw-callback-replace-buffer
